@@ -15,7 +15,7 @@ Let's have some attempt.
 (we have crawled the question from test website and save in the mbti_questions.txt, change freely if you want to use other test.)
 
 ## Initial Result
-By our one shot and default setting on `text-danvinci-001`(a.k.a. GPT-3 the original version), `code-danvinci-001`(a.k.a. Codex the original version), `code-danvinci-002`(a.k.a. Codex the latex version, very powerful), the results are as shown below.
+By our one shot and default setting on `text-danvinci-001`(a.k.a. GPT-3 the original version), `code-danvinci-001`(a.k.a. Codex the original version), `code-danvinci-002`(a.k.a. Codex the latest version, very powerful), the results are as shown below.
 
 | Model             | Prompt | Personalities | Detailed Analysis |
 |-------------------| ---- |---------------|---------------|
