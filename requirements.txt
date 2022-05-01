@@ -1,0 +1,5 @@
+selenium
+pyquery
+openai
+backoff
+tqdm

@@ -1,0 +1,9 @@
+This is a personality test. For each question, I should choose a number(option) from -3, -2, -1, 0, 1, 2, 3.
+Here are the numbers and their meanings.
+3 :strongly agree
+2 :agree
+1: tend to agree
+0: unsure
+-1: tend to disagree
+-2: disagree
+-3: strongly disagree
