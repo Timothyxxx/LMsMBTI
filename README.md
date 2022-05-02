@@ -20,12 +20,12 @@ Let's have some attempt.
 By our one shot and default setting on `text-danvinci-001`(a.k.a. GPT-3 the original version), `code-danvinci-001`(a.k.a. Codex the original version), `code-danvinci-002`(a.k.a. Codex the latex version, very powerful), the results are as shown below.
 
 | Model             | Prompt                      | Personalities | Detailed Analysis |
-|-------------------|-----------------------------|------|---------------|
-| text-danvinci-001 | mbti_prompt.txt             | ENFJ-A | [link](https://drive.google.com/file/d/19aKL275gXL7KCPJ-ZoHpxHxgUc4wbY9u/view?usp=sharing)      |
-| code-danvinci-001 | mbti_prompt.txt             | ENFP-A | [link](https://drive.google.com/file/d/1xwHgZFcZhwX9Mi4zg1qT34t5pqu_0Xaq/view?usp=sharing)              |
-| code-danvinci-002 | mbti_prompt.txt             | ENTJ-A | [link](https://drive.google.com/file/d/1RiL-Vw9D09ugyEYa3jhskyraQfcoBNZk/view?usp=sharing)              |
-| code-danvinci-002 | mbti_prompt_intj_simple.txt | INSJ-A | [link](https://drive.google.com/file/d/12z7nf9zTukdqm4Py3tWOj5I_XFdSyR-v/view?usp=sharing)              |
-| code-danvinci-002 | mbti_prompt_intj.txt        | INSJ-A | [link](https://drive.google.com/file/d/1rbx-dInNdTpLuWEZN7YNAB0dhDIlaYv_/view?usp=sharing)              |
+|-------------------|-----------------------------|---------------|---------------|
+| text-danvinci-001 | mbti_prompt.txt             | ENFJ-A        | [link](https://drive.google.com/file/d/19aKL275gXL7KCPJ-ZoHpxHxgUc4wbY9u/view?usp=sharing)      |
+| code-danvinci-001 | mbti_prompt.txt             | ENFP-A        | [link](https://drive.google.com/file/d/1xwHgZFcZhwX9Mi4zg1qT34t5pqu_0Xaq/view?usp=sharing)              |
+| code-danvinci-002 | mbti_prompt.txt             | ENTJ-A        | [link](https://drive.google.com/file/d/1RiL-Vw9D09ugyEYa3jhskyraQfcoBNZk/view?usp=sharing)              |
+| code-danvinci-002 | mbti_prompt_intj_simple.txt | ISTJ-A        | [link](https://drive.google.com/file/d/12z7nf9zTukdqm4Py3tWOj5I_XFdSyR-v/view?usp=sharing)              |
+| code-danvinci-002 | mbti_prompt_intj.txt        | ISTJ-A        | [link](https://drive.google.com/file/d/1rbx-dInNdTpLuWEZN7YNAB0dhDIlaYv_/view?usp=sharing)              |
 
 
 ## Citation(Just kidding)
