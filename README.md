@@ -8,6 +8,8 @@ In memory of Labour Day of 2022.
 Let's have some attempt.
 
 ## To run
+- clone this repo
+- `pip install .`
 - set <OPENAI_API_KEY> in get_answers.py
 - set the mbti_prompt.txt for the background word(It could affect a lot, and we encourage everyone to have a try)
 - run `get_answers.py` to get the decisions made by LLMs.
