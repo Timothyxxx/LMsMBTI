@@ -9,9 +9,9 @@ import pickle
 import os
 from tqdm import tqdm
 
-PROMPT_PATH = "{}_prompt.txt"
+PROMPT_PATH = "{}_prompt_intj_simple.txt"
 QUESTIONS_PATH = '{}_questions.txt'
-OPENAI_API_KEY = "" # TODO: Add your own API.
+OPENAI_API_KEY = "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" # TODO: Add your own API.
 
 
 @backoff.on_exception(backoff.expo, (openai.error.RateLimitError, openai.error.APIConnectionError))
@@ -28,9 +28,9 @@ def call_api(engine: str, prompt: str, max_tokens, temperature):
 if __name__ == '__main__':
     openai.api_key = OPENAI_API_KEY
     parser = argparse.ArgumentParser()
-    parser.add_argument('--run_id', type=str, default="text-davinci-001")
+    parser.add_argument('--run_id', type=str, default="code-davinci-002-with-intj-simple-claim")
     parser.add_argument('--benchmark', type=str, default="mbti")
-    parser.add_argument('--engine', type=str, default="text-davinci-001")
+    parser.add_argument('--engine', type=str, default="code-davinci-002")
     parser.add_argument('--max_tokens', type=int, default=128)
     parser.add_argument('--temperature', type=float, default=0.0)
 
@@ -49,7 +49,7 @@ if __name__ == '__main__':
     prompt = "{}\n\n".format(raw_prompt)
 
     for question in tqdm(questions):
-        if len(prompt) < 5000:
+        if len(prompt) < 10000:
             prompt += "Q: {}\nA:".format(question)
         else:
             prompt = "{}\n\n".format(raw_prompt)

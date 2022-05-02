@@ -12,7 +12,7 @@ URL = "https://www.16personalities.com/free-personality-test"
 GENDER = "MALE"  # MALE/FEMALE/OTHERS
 GENDER_map = {"MALE": "1", "FEMALE": "2", "OTHERS": 3}
 
-RESULT_PATH = "mbti/result_strs/result_strs_text-davinci-001.json"
+RESULT_PATH = "mbti/result_strs/result_strs_code-davinci-002-with-intj-simple-claim.json"
 
 
 def fulfill_answers(url, answers):
@@ -41,7 +41,11 @@ def fulfill_answers(url, answers):
         # There are 10 pages in the website
         for q_idx in range(6):
             # There are 6 questions in a page.
-            option_idx = -int(answers[idx]) + 4
+            try:
+                answer_idx = -int(answers[idx])
+            except Exception as e:
+                answer_idx = 0
+            option_idx = answer_idx + 4
             idx += 1
             xpath = """/html/body/div[2]/main/div[1]/div[2]/div/div[2]/div[{}]/div[2]/div[2]/div[{}]""".format(
                 q_idx + 1, option_idx)
